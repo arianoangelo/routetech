@@ -15,7 +15,6 @@ function Features() {
     
     useEffect(() => {
         heightFix()
-        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [tab])
     
     return (
